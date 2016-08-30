@@ -5,5 +5,5 @@ If you find the content difficult to understand due to poor explanations, bad la
 
 I hope you enjoy the course, and find these documents useful!
 
-Regards
+Regards  
 Thor Håkon
