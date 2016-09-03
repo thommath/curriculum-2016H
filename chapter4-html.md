@@ -166,7 +166,7 @@ You can use this to indent your code, so that you will have a structure similar 
 This will make the code easier to read, and see the document structure, e.g. which elements encloses other elements.
 
 ##### Line breaks
-The paragraph tag `<p>` will give you space between each paragraph. If you only want to have a new line (a soft line break, if you want to sound like a pro) within the same paragraph, you can use `<br>`. No closing tag is necessary.
+The paragraph tag `<p>` will give you space between each paragraph. If you only want to have a new line (a soft line break, if you want to sound like a pro) within the same paragraph, you can use `<br />`. 
 
 ### Lists
 
@@ -326,13 +326,13 @@ Images in HTML is included using the `<img>` tag. You reference the image using 
 ... you would write it like this, when referenceing to the image from `starblaster.html`:
 
 ```
-<img src="../images/starblaster.jpg">
+<img src="../images/starblaster.jpg" />
 ```
 
 This will render an image in the browser that has the same height and width as the image it self. That might not always be desirable. To change this you can use the attributes height and width to constrain your image size. E.g.:
 
 ```
-<img src="../images/starblaster.jpg" width="500px" height="400px">
+<img src="../images/starblaster.jpg" width="500px" height="400px" />
 ```
 
 Images often take longer to load than other HTML code. Thus it is a good idea to specify the size of the image so that the browser can render the rest of the text on the page while leaving he right amount of space for the image that is still loading.
@@ -355,7 +355,7 @@ As computer screens are made up of pixels, you should also measure your images i
 You can use the image element as a link if you want. In stead of a text between the `<a>` tags, put an image there.
 
 ```
-<a href="products/starblaster.html"><img src="images/starblaster.jpg"></a>
+<a href="products/starblaster.html"><img src="images/starblaster.jpg" /></a>
 ```
 
 #### Image formats
@@ -810,7 +810,7 @@ The `<figure>` element represents self-contained content, frequently with a capt
 
 ```
 <figure>
-  <img src="https://avatars2.githubusercontent.com/u/18331244" alt="IT2805 logo">
+  <img src="https://avatars2.githubusercontent.com/u/18331244" alt="IT2805 logo" />
 </figure>
 ```
 
@@ -819,7 +819,7 @@ The `<figcaption>` element represents a caption associated with a figure. `<figu
 
 ```
 <figure>
-  <img src="https://avatars2.githubusercontent.com/u/18331244" alt="IT2805 logo">
+  <img src="https://avatars2.githubusercontent.com/u/18331244" alt="IT2805 logo" />
   <figcaption>Fig. 1: Web technologies logo</figcaption>
 </figure>
 ```
